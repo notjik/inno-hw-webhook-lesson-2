@@ -36,30 +36,6 @@ async def startup(callback):
     :param callback: dispatcher object
     :return: None
     """
-    table_template = {
-        'users': [
-            {
-                'name': 'id',
-                'desc': 'integer primary key autoincrement not null',
-            },
-            {
-                'name': 'userid',
-                'desc': 'integer unique',
-            },
-            {
-                'name': 'username',
-                'desc': 'text',
-            },
-            {
-                'name': 'firstname',
-                'desc': 'text',
-            },
-            {
-                'name': 'lastname',
-                'desc': 'text',
-            }
-        ]
-    }
     me = await callback.bot.get_me()  # Request information about the bot
     print('{}The {}{}[{}]{} has been successfully launched.{}\n'.format(
         ansi_color['green']['text'],

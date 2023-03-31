@@ -1,4 +1,4 @@
-###### innopolis-classwork-webhook-lesson-2
+###### inno-hw-webhook-lesson-2
 
 <details><summary> 
 <strong>English</strong>
